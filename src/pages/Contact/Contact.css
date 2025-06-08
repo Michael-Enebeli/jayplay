@@ -1,0 +1,78 @@
+.contact h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    margin: 25px auto;
+}
+
+
+.contact .image-container img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+
+.contact .social-icons {
+    padding: 30px 0px 50px 0;
+    text-align: center;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 720px) {
+    .contact .social-icons {
+        display: flex;
+    }
+}
+
+.contact .social-icons li {
+    transition: all 0.3s ease;
+    ;
+    margin-top: 30px;
+}
+
+.contact .social-icons li a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: none;
+    color: var(--black);
+    padding: 10px 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contact .social-icons i.fa-instagram {
+    color: #E1306C;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+.contact .social-icons i.fa-x-twitter {
+    margin-right: 5px;
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.contact .social-icons i.fa-facebook {
+    margin-right: 5px;
+    font-size: 1.5rem;
+    color: #1877F2;
+}
+
+.contact .social-icons li a:hover {
+    color: #3B6D31;
+    transform: scale(1.05);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .contact .social-icons li a {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    pointer-events: none;
+    transform: translateY(-100px);
+    margin-bottom: 0;
+}
+
+.slider {
+    display: inline-flex;
+    will-change: transform;
+    transition: transform 0.05s linear;
+}
+
+.slider-text {
+    display: inline-block;
+    padding: 0 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    white-space: nowrap;
+    font-weight: 800;
+    font-size: 1.75rem;
+    font-family: 'Gugi', sans-serif;
+    background: linear-gradient(90deg, #72D35E 0%, #3B6D31 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.static-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--bg);
+    margin: 20px auto 10px auto;
+    max-width: 450px;
+    box-shadow: 0 2px 8px rgba(97, 73, 73, 0.7);
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+.icon-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-item i {
+    font-size: 1.5rem;
+}
+
+.icon-item span {
+    font-weight: bold;
+}
+
+.icon-item .fa-apple {
+    color: var(--black);
+}
+
+.icon-item .fa-spotify {
+    color: #1DB954;
+}
+
+.icon-item .fa-youtube {
+    color: #FF0000;
+}

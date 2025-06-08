@@ -1,0 +1,32 @@
+.single {
+    text-align: center;
+    background: linear-gradient(90deg, #72D35E 0%, #3B6D31 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 50px;
+}
+
+.single .image-container {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.single .image-container img {
+    max-width: 400px;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transform: scale(2) translateY(-75px);
+}
+
+.single .image-container+h2 {
+    background: none;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: initial;
+    background-clip: border-box;
+    color: initial;
+    margin: 1.5rem 0;
+}

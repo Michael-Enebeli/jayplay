@@ -1,0 +1,75 @@
+#newAlbum {
+  padding: 7.5% 0;
+}
+
+#newAlbum span,
+#newAlbum h2 {
+  text-align: center;
+  display: block;
+  margin: 10px 0;
+}
+
+#newAlbum .music-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#newAlbum .player-wrapper {
+  flex-shrink: 0;
+}
+
+
+#newAlbum .music-info h3 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+#newAlbum .music-info p {
+  font-size: 0.8rem;
+  color: var(--black);
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+#newAlbum .download-btn {
+  background-color: #3B6D31;
+  color: var(--bg);
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background 0.3s;
+  cursor: none;
+}
+
+#newAlbum .download-btn:hover {
+  background-color: var(--green);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  #newAlbum .download-btn {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 720px) {
+  #newAlbum .music-section {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 10px auto;
+  }
+
+  #newAlbum .player-wrapper {
+    width: 400px;
+  }
+
+  #newAlbum .music-info {
+    flex: 1;
+    padding-left: 20px;
+  }
+}
