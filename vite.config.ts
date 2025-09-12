@@ -7,5 +7,8 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5000,
     strictPort: true,
+    allowedHosts: [
+      '1f996d70-2165-4353-8701-2eab99c29ca1-00-27vbnczg65b27.picard.replit.dev'
+    ]
   },
 });

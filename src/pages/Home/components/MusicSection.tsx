@@ -11,7 +11,7 @@ const MusicSection: React.FC = () => {
                 <div className="player-wrapper">
                     <MusicPlayer
                         title="Don't Put Me on Silent"
-                        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                        src="/playlists/don't_put_me_on_silent.mp3"
                         backgroundImage="/images/newalbum.jpg"
                     />
                 </div>

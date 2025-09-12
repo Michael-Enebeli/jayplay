@@ -53,13 +53,13 @@ const Navbar: React.FC = () => {
 
                 <ul className="social-icons">
                     <li>
-                        <a href="#"><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/jayplay_sov?igsh=YzljYTk1ODg3Zg==" target="_blank"><i className="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i className="fab fa-x-twitter"></i></a>
+                        <a href="https://x.com/CAPITALSOV?t=n-CfvUpEHzSog6BaMlvfBg&s=09" target="_blank"><i className="fab fa-x-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i className="fab fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/share/16zTHAKPqq" target="_blank"><i className="fab fa-facebook"></i></a>
                     </li>
                 </ul>
             </div>
