@@ -24,7 +24,7 @@ export const musicLibrary = [
         id: 4,
         title: "God pass dem",
         artist: "Jay Play",
-        src: "/playlists/god_pass_dem",
+        src: "/playlists/god_pass_dem.mp3",
         backgroundImage: "/images/existence.jpg",
     },
     {
